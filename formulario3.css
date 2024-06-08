@@ -1,0 +1,35 @@
+form{
+    padding: 40px 0px 60px 0px;
+    border: 1px solid black;
+    width: 35%;
+    margin: 0px auto 0 auto;
+    background: radial-gradient(rgba(34, 195, 181, 0.75), rgba(33, 235, 147, 0.75))
+    
+}
+body{
+    font-family:'Times New Roman', Times, serif;
+    background-image:url(https://img.freepik.com/vector-gratis/ilustracion-concepto-acuerdo_114360-494.jpg?size=338&ext=jpg&ga=GA1.1.539837299.1711843200&semt=ais);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    min-height: 100vh;
+}
+h1{
+    margin-left: 100px; 
+    color: rgb(17, 16, 70);
+}
+input{
+    margin-left: 100px; 
+    width: 50%;
+}
+textarea{
+    margin-left: 100px; 
+    width: 70%;
+}
+span{
+    color: rgb(102, 49, 202);
+}
+.aca{
+    color: white;
+    background-color: rgb(8, 55, 68);
+}

@@ -1,0 +1,104 @@
+header{
+    background-color: white;
+    width: 950px;
+    height: 170px;
+    margin: 0 auto;
+}
+
+nav{
+    background-color: rgb(104, 184, 104);
+    width: 950px;
+    height: 40px;
+    margin: 0 auto;
+}
+
+main{
+    background-color: rgb(255, 255, 255);
+    width: 950px;
+    height: 500px;
+    margin: 0 auto;
+}
+
+section{
+    background-color: rgb(255, 255, 255);
+    width: 550px;
+    height: 460px;
+    float: left;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+aside{
+    background-color: rgb(126, 218, 185);
+    width: 340px;
+    height: 460px; 
+    float:right;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+
+footer{
+    background-color: rgb(82, 104, 113);
+    width: 950px;
+    height: 50px; 
+    margin: 0 auto;
+}
+
+.foto{
+    width: 186px;
+    height: 186px;
+}
+
+nav ul {
+    list-style-type: none; 
+}
+nav li {
+    display: inline-block;
+    margin-right: 20px;
+    padding: 10px; 
+}
+
+a:hover{
+    color: rgb(39, 50, 96);
+}
+
+.titulo{
+    color: rgb(235, 137, 9);
+}
+
+h3{
+    color: grey;
+}
+
+aside p{
+    text-align: justify;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+section p{
+    text-align: justify;
+}
+
+.raya{
+    position: relative;
+    margin-top: -20px;
+}
+
+.nu{
+    margin-left: 10px;
+    margin-top: 10px;
+    color: rgb(235, 137, 9);
+}
+
+.au{
+    float: right;
+    color: beige;
+    margin-right: 15px;
+}
+
+h1{
+    text-align: center;
+    margin-top: -109px;
+    color: rgb(133, 67, 115);
+}

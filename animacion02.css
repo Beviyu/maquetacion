@@ -1,0 +1,78 @@
+article{
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    background-color: blueviolet;
+    animation-name: movimiento2;
+    animation-duration: 10s;
+    animation-timing-function: ease-in-out;
+    animation-iteration-count: 3;
+
+}
+p{
+    border: 2px dashed darkmagenta;
+    width: 100%;
+    animation-name: parrafoV;
+    animation-timing-function: ease-out;
+    animation-iteration-count: 5s;
+    animation-direction: alternate;
+
+}
+@keyframes parrafoV {
+    from{ /*primer fotograma*/
+        margin-left: 100%;
+        background-color: aquamarine;
+    }
+    to{ /*último fotograma*/
+        margin-left: 0%;
+        width: 400px;
+    }
+}
+@keyframes movimiento {
+    from{ /*primer fotograma*/
+        margin-left: 100%;
+        width: 300%;
+        background-color: aquamarine;
+    }
+    to{ /*último fotograma*/
+        margin-left: 0%;
+        width: 200%;
+    }
+}
+@keyframes movimiento2 {
+    0%{
+        width: 50px;
+        height: 50px;
+        border-radius: 50px;
+        background-color: darkcyan;
+    }
+    25%{
+        width: 100px;
+        height: 100px;
+        margin-top: 300px;
+        border-radius: 50px;
+        background-color: salmon;
+    }
+    50%{
+        width: 150px;
+        height: 150px;
+        margin-left: 300px;
+        border-radius: 50px;
+        background-color: goldenrod;
+    }
+    75%{
+        width: 200px;
+        height: 200px;
+        margin-top: 0px;
+        border-radius: 50px;
+        background-color: crimson;
+    }
+    100%{
+        width: 200px;
+        height: 200px;
+        margin-left: 0px;
+        border-radius: 50px;
+        background-color: darkolivegreen;
+        transform: rotate(75deg);
+    }
+}

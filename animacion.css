@@ -1,0 +1,10 @@
+article{
+    width: 400px;
+    height: 200px;
+    background: linear-gradient(30deg, green, blue, yellow);
+}
+section{
+    width: 400px;
+    height: 200px;
+    background: radial-gradient(aqua, blue);
+}

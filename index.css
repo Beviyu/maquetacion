@@ -1,0 +1,8 @@
+body{
+    background-image: url(atardecerWS.jpg);
+    background-size: contain;
+    background-position: center center;
+}
+a{
+    color: rgb(32, 43, 70);
+}
